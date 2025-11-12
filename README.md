@@ -51,26 +51,41 @@ O sistema permite importar de forma automatizada **produtos, grupos, marcas, tri
 ## 🧠 Como Utilizar
 
 1. **Abra o programa DJConversor**  
-   Ao iniciar, escolha o tipo de importação desejada (Produtos, Clientes, Grupos, Marcas, etc).
+   Ao iniciar, escolha Configuração para configurar a porta do firebird para a conexão com o banco de dados.
+   
+   <img width="470" height="426" alt="image" src="https://github.com/user-attachments/assets/2458b52f-5c00-4381-ae4a-32d89fb8b46a" />
+   <img width="463" height="389" alt="image" src="https://github.com/user-attachments/assets/0b813937-bfb4-46d5-ad34-6e5382a9d746" />
 
-2. **Selecione os arquivos**  
+### Importação de Produtos
+<img width="1102" height="829" alt="image" src="https://github.com/user-attachments/assets/259e33a8-afa2-49f3-b19b-b5ea7b1b9192" />
+
+
+
+3. **Selecione os arquivos**  
    - Clique em **📂 Buscar** para escolher o arquivo `.DBF` exportado do sistema antigo.  
    - Clique em **📁 Buscar** para selecionar o banco `.FDB` do DJMonitor ou DJPDV de destino.
 
-3. **Mapeie as colunas**  
+4. **Mapeie as colunas**  
    - Em cada campo (Descrição, Código de Barras, Preço, Grupo, Marca, etc.), escolha a coluna correspondente do DBF.  
    - O mapeamento é flexível e pode variar conforme o sistema de origem.
 
-4. **Configure as opções**  
-   - Defina se deseja importar **grades**, **estoque**, ou **códigos alternativos**.  
+5. **Configure as opções**  
+   - Defina se deseja importar **grades**, **estoque**, ou **códigos alternativos**.
+
+   ### Importação de Clientes
+  <img width="854" height="633" alt="image" src="https://github.com/user-attachments/assets/6639168f-388a-4c33-a8b2-26139f61a1f8" />
+ 
    - No caso de clientes, escolha como determinar o **Contribuinte ICMS**:
      - Todos como **não contribuintes (9)**  
      - Todos como **contribuintes (1)**  
      - Todos como **isentos (2)**  
      - **Automático** (CNPJ = contribuinte, CPF = não contribuinte)  
      - Ou usar a coluna específica do DBF
+   ### Importação de Contas a Receber
+  <img width="902" height="678" alt="image" src="https://github.com/user-attachments/assets/d5a242a7-a3d8-46ab-9064-246caa05089f" />
 
-5. **Inicie a importação 🚀**  
+
+7. **Inicie a importação 🚀**  
    - Clique em **Importar** e acompanhe a barra de progresso.  
    - O sistema exibirá mensagens de status e salvará logs detalhados na pasta do executável.
 
