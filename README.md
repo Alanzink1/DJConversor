@@ -84,6 +84,7 @@ O sistema permite importar de forma automatizada **produtos, grupos, marcas, tri
    ### Importação de Contas a Receber
   <img width="902" height="678" alt="image" src="https://github.com/user-attachments/assets/d5a242a7-a3d8-46ab-9064-246caa05089f" />
 
+  Importe a planilha de contas a receber e indique as respectivas colunas, o "Código do Plano" padrão é o AP (A Prazo) e o código da carteira padrão é "CA".
 
 7. **Inicie a importação 🚀**  
    - Clique em **Importar** e acompanhe a barra de progresso.  
