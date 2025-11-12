@@ -8,24 +8,24 @@ O sistema permite importar de forma automatizada **produtos, grupos, marcas, tri
 
 ## 🧩 Principais Funcionalidades
 
-✅ **Importação de Produtos Completa**
+📥📦 **Importação de Produtos Completa**
 - Leitura automática de arquivos `.DBF` ou planilhas convertidas.
 - Mapeamento dinâmico de colunas (Descrição, Código de Barras, Preço, Estoque, NCM, etc).
 - Suporte a **grades e variações** (P/M/G, cores, tamanhos, etc).
 - Importação de **códigos alternativos** de barras.
 - Criação automática de **grupos, marcas e tributação ICMS**.
 
-✅ **Importação de Clientes**
+📥👥 **Importação de Clientes**
 - Mapeamento dos campos essenciais: Nome, CPF/CNPJ, Tipo de Pessoa e Cidade.
 - Configuração inteligente de **Contribuinte ICMS** (manual, automático ou por coluna específica).
 - Tratamento automático de acentuação e caracteres especiais.
 
-✅ **Importação de Contas a Receber**
+📥📋 **Importação de Contas a Receber**
 - Conversão de planilhas de contas de clientes.
 - Leitura de campos como nome, valor, vencimento, data de caixa, juros, atraso e status.
 - Gravação direta na base Firebird.
 
-✅ **Controle Total de Logs e Erros**
+🚀🚀 **Controle Total de Logs e Erros**
 - Geração de arquivos `.txt` de logs com datas e mensagens detalhadas.
 - Registros de erros, truncamentos e informações gerais durante a importação.
 - Indicadores visuais de progresso e mensagens de status em tempo real.
